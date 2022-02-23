@@ -103,7 +103,7 @@
         }
         
         .meme {
-            height: 70vh;
+            height: fit-content;
             background-color: rgb(147, 209, 255);
         }
         
@@ -111,6 +111,13 @@
             width: 29vw;
             height: 25vh;
             margin: 5vh 1.5vw 5vh 1.5vw;
+        }
+        
+        @media all and (max-width: 768px) {
+            img {
+                width: 90vw;
+                height: 75vh;
+            }
         }
     </style>
 </head>
