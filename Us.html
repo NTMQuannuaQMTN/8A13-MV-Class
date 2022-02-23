@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+    <title>8A13 - Một bể cá</title>
+    <meta charset="utf-8">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=1uJ6zZVG"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        
+        header {
+            width: 100vw;
+            height: 13vh;
+            background-color: rgb(255, 167, 167);
+        }
+        
+        header h1 {
+            width: 45vw;
+            font-size: 5vh;
+            display: inline-block;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top: 4vh;
+            font-family: 'Roboto';
+        }
+        
+        footer h1 {
+            width: 45vw;
+            font-size: 3vh;
+            display: inline-block;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top: 4vh;
+            font-family: 'Roboto';
+        }
+        
+        footer {
+            width: 100vw;
+            height: fit-content;
+            background-color: rgb(255, 167, 167);
+        }
+        
+        .right {
+            text-align: right;            
+        }
+        
+        .topnav {
+            width: 100vw;
+            background-color: rgb(245, 255, 204);
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            width: 24.75vw;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 3vh;
+        }
+
+        .topnav a:hover {
+            background-color: rgb(216, 255, 60);
+        }
+
+        .topnav a.active {
+            background-color: rgb(180, 255, 121);
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .topnav.responsive {
+                position: relative;
+            }
+            .topnav.responsive a.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+        
+        .image {
+            width: 100vw;
+            height: fit-content;
+            background-color: rgb(147, 255, 170);
+        }
+        
+        img {
+            width: 30vw;
+            height: 25vh;
+            margin: 5vh 1.5vw 5vh 1.5vw;
+        }
+        
+        @media all and (max-width: 768px) {
+            img {
+                width: 90vw;
+                height: 75vh;
+                margin: 5vh 4.5vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>8A13</h1>
+        <h1 class="right">MỘT BỂ CÁ</h1>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Trang chủ</a>
+        <a class="active" href="Us.html">Về 8A13</a>
+        <a href="MV.html">Về MV</a>
+        <a href="BTS.html">Hậu Trường</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <main>
+        <div class="image">
+            <h1>Lớp 8A13 - Một bể cá</h1>
+            <img src="" alt="Image 1">
+            <img src="" alt="Image 2">
+            <img src="" alt="Image 3">
+            <img src="" alt="Image 4">
+            <img src="" alt="Image 5">
+            <img src="" alt="Image 6">
+        </div>
+        <div class="meme">
+        </div>
+    </main>
+    <footer>
+        <h1>8A13 - Break the limit</h1>
+        <h1 class="right">MỘT BỂ CÁ</h1>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
