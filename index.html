@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <style>
+        .fa {
+            padding: 1vw;
+            font-size: 4vh;
+            width: 5vw;
+            height: 5vw;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 92.5vw;
+            border-radius: 50%;
+            line-height: 3vw;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
         body {
             overflow-x: hidden;
         }
@@ -57,7 +80,7 @@
 
         .topnav a {
             float: left;
-            width: 24.75vw;
+            width: 25vw;
             display: block;
             color: black;
             text-align: center;
@@ -119,7 +142,7 @@
             font-size: 10vh;
         }
         
-        .meme {
+        .meme, .soc {
             width: 100vw;
             height: fit-content;
             background-color: rgb(147, 209, 255);
@@ -127,14 +150,14 @@
         
         img {
             width: 30vw;
-            height: 25vh;
+            height: auto;
             margin: 5vh 1.5vw 5vh 1.5vw;
         }
         
         @media all and (max-width: 768px) {
             img {
                 width: 90vw;
-                height: 75vh;
+                height: auto;
                 margin: 5vh 4.5vw;
             }
         }
@@ -151,7 +174,7 @@
 <body>
     <header>
         <h1>8A13</h1>
-        <h1 class="right">MỘT BỂ CÁ</h1>
+        <h1 class="right">Một Bể Cá</h1>
     </header>
     <div class="topnav" id="myTopnav">
         <a class="active" href="index.html">Trang chủ</a>
@@ -174,10 +197,13 @@
             <img src="274310026_429901552217012_2490626118503619527_n.png" alt="Meme 5">
             <img src="274364378_363959395551897_8004993244902558012_n.png" alt="Meme 6">
         </div>
+        <div class="soc">
+            <a href="https://www.facebook.com/M%E1%BB%99t-B%E1%BB%83-C%C3%A1-%C3%8113-101033031847616" class="fa fa-facebook" target="_blank"></a>
+        </div>
     </main>
     <footer>
-        <h1>8A13 - Break the limit</h1>
-        <h1 class="right">MỘT BỂ CÁ</h1>
+        <h1>8A13 - Break the Limit</h1>
+        <h1 class="right">Một Bể Cá</h1>
     </footer>
     <script>
         function myFunction() {
